@@ -1,8 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" style="scroll-behavior: smooth; height: 100%;">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale = 1">
+        <link rel="shortcut icon" type="image/jpg" href="resources/favicon.ico"/>
         <title>CSI | ICET Chapter</title>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -10,7 +11,7 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     </head>
-    <body>
+    <body style="height: 100%;">
         <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
             <a class="navbar-brand" href="#" style="max-width: 7%;">
                 <img src="resources/logo.png" class="img-fluid">
@@ -23,15 +24,17 @@
                 <ul class="navbar-nav ml-auto">
                     
                         <li class="nav-item">
-                        <a class="nav-link" href="about.html">AboutUs</a>
+                        <a class="nav-link" href="#about">AboutUs</a>
                         </li>
                         <li class="nav-item">
-                        <a class="nav-link" href="events.html">Events</a>
+                        <a class="nav-link" href="#events">Events</a>
                         </li>
                         <li class="nav-item">
-                        <a class="nav-link" href="committe.html">Committe</a>
+                        <a class="nav-link" href="#committe">Committe</a>
+                        </li>
                         <li class ="nav-item"></li>
-                        <a class="nav-link" href="contact.html">ContactUs</a>
+                        <a class="nav-link" href="#contact">ContactUs</a>
+                        </li>
                 </ul>
             </div>
         </nav>
@@ -61,35 +64,144 @@
                     <img class="d-block w-100" src="resources/slide03.png" alt="Students Corner">
                     <div class="carousel-caption" style="background: rgba(0,0,0,0.2);">
                         <h4>Students Corner</h4>
-                        <p>Many fests are conducted under the guidance if CSI by students</p>
+                        <p>Many fests are conducted under the guidance of CSI by students</p>
                     </div>
                 </div>
                
             </div>
         </div>
-        <br><br>
-        <div class="container">
-            <div id="#mission">
-                <h2>Our Mission</h2>
-                <p>
-                    Computer Society of India (CSI) is the oldest and largest organisation of IT and allied 
-                    professionals in India. CSI is a non-profit professional society formed dedicated to Computing
-                    to exchange views and information, learn and share ideas. The wide spectrum of members is 
-                    committed to the advancement of theory and practice of Computer Engineering and Technology
-                    Systems, Science and Engineering, Information Processing and related Arts and Sciences.
-                    CSI has a natural responsibility to play a pivotal role in shaping a Digital India.
-                    CSI's missions are (1) Facilitate Research, Knowledge Sharing, Learning and Career
-                    Enhancement among all categories of IT professionals. (2) Inspire, nurture and assist students
-                    to integrate into the IT community. (3) Percolate benefits of IT advancement to all sections of 
-                    Indian Society.
-                </p>
-            </div>
-        </div>
-        <br><br>
+      
+        <section id="about"  style="height: 100%;">
+            <div class="bg-light">
+                <div class="container py-5">
+                  <div class="row h-100 align-items-center py-5">
+                    <div class="col-lg-6">
+                      <h1 class="display-4">Who are we?</h1>
+                      <p class="lead text-muted mb-0">CSI is a non-profit professional society formed dedicated to computing
+                        to exchange views and information, learn and share ideas</p>
+                      <p class="lead text-muted">For More Information <a href="http://www.csi-india.org/" class="text-muted"> 
+                                  <u>Click here</u></a>
+                      </p>
+                    </div>
+                    <div class="col-lg-6 d-none d-lg-block"><img src="resources/illust1.png" alt="" class="img-fluid"></div>
+                  </div>
+                </div>
+              </div>
+        </section>
+
+        <section id="events"  style="height:100%">
+            <div class="container">
+                <div class="row justify-content-center">
+                  <div class="col-md-8 text-center">
+                    <h3 class="display-4">Upcoming Events</h3>
+                    <h6 class="lead text-muted mb-0">Many Events are conducted by the CSI Members all over the Country</h6>
+                  </div>
+                </div>
+                <br><br>
+                <div class="row mt-4">
+                  <div class="col-md-4 on-hover">
+                    <div class="card border-0 mb-4">
+                      <a href="#"><img class="card-img-top" src="resources/event1.png"></a>
+                      <div class="date-pos bg-info-gradiant p-2 d-inline-block text-center rounded text-white position-absolute">Dec<span class="d-block">7</span></div>
+                      <h5 class="font-weight-medium mt-3"><a href="#" class="text-decoration-none link">Webinar on Data Analysis</a></h5>
+                      <p class="mt-3">Google Meet</p>
+                      <a href="#" class="text-decoration-none linking text-themecolor mt-2">Learn More</a>
+                    </div>
+                    </div>
+                  <div class="col-md-4 on-hover">
+                    <div class="card border-0 mb-4">
+                      <a href="#"><img class="card-img-top" src="resources/event2.png"></a>
+                      <div class="date-pos bg-info-gradiant p-2 d-inline-block text-center rounded text-white position-absolute">Apr<span class="d-block">14</span></div>
+                      <h5 class="font-weight-medium mt-3"><a href="#" class="text-decoration-none link">Webinar on DataScience </a></h5>
+                      <p class="mt-3">Google Meet</p>
+                      <a href="#" class="text-decoration-none linking text-themecolor mt-2">Learn More</a>
+                    </div>
+                  </div>
+                  <div class="col-md-4 on-hover">
+                    <div class="card border-0 mb-4">
+                      <a href="#"><img class="card-img-top" src="resources/event3.jpg"></a>
+                      <div class="date-pos bg-info-gradiant p-2 d-inline-block text-center rounded text-white position-absolute">May<span class="d-block">5</span></div>
+                      <h5 class="font-weight-medium mt-3"><a href="#" class="text-decoration-none link">Webinar on Machine Learning</a></h5>
+                      <p class="mt-3">Google Meet</p>
+                      <a href="#" class="text-decoration-none linking text-themecolor mt-2">Learn More</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </section>
+        <section id="committe" style="height: 100%;">
+            <div class="bg-light py-5">
+                <div class="container py-5">
+                  <div class="row mb-4">
+                    <div class="col-lg-5">
+                      <h2 class="display-4 font-weight-light">CSI-ICET Chapter </h2>
+                      <p class="font-italic text-muted">Office Bearers and Committe Members</p>
+                    </div>
+                  </div>
+              
+                  <div class="row text-center">
+                    <div class="col-xl-3 col-sm-6 mb-5">
+                      <div class="bg-white rounded shadow-sm py-5 px-4"><img src="resources/icon1.jpg" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
+                        <h5 class="mb-0">Asif Ealias</h5><span class="small text-uppercase text-muted">Chairman</span>
+                        <ul class="social mb-0 list-inline mt-3">
+                          <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-facebook-f"></i></a></li>
+                          <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-twitter"></i></a></li>
+                          <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-instagram"></i></a></li>
+                          <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-linkedin"></i></a></li>
+                        </ul>
+                      </div>
+                    </div>
+              
+                    <div class="col-xl-3 col-sm-6 mb-5">
+                      <div class="bg-white rounded shadow-sm py-5 px-4"><img src="resources/icon1.png" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
+                        <h5 class="mb-0">Jebs John</h5><span class="small text-uppercase text-muted">Vice Chairman</span>
+                        <ul class="social mb-0 list-inline mt-3">
+                          <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-facebook-f"></i></a></li>
+                          <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-twitter"></i></a></li>
+                          <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-instagram"></i></a></li>
+                          <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-linkedin"></i></a></li>
+                        </ul>
+                      </div>
+                    </div>
+              
+                    <div class="col-xl-3 col-sm-6 mb-5">
+                      <div class="bg-white rounded shadow-sm py-5 px-4"><img src="resources/icon2.png" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
+                        <h5 class="mb-0">Muhammed Faizal</h5><span class="small text-uppercase text-muted">Treasury</span>
+                        <ul class="social mb-0 list-inline mt-3">
+                          <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-facebook-f"></i></a></li>
+                          <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-twitter"></i></a></li>
+                          <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-instagram"></i></a></li>
+                          <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-linkedin"></i></a></li>
+                        </ul>
+                      </div>
+                    </div>
+              
+                    <div class="col-xl-3 col-sm-6 mb-5">
+                      <div class="bg-white rounded shadow-sm py-5 px-4"><img src="resources/icon3.png" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
+                        <h5 class="mb-0">Arya Gopal</h5><span class="small text-uppercase text-muted">Secretary</span>
+                        <ul class="social mb-0 list-inline mt-3">
+                          <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-facebook-f"></i></a></li>
+                          <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-twitter"></i></a></li>
+                          <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-instagram"></i></a></li>
+                          <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-linkedin"></i></a></li>
+                        </ul>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+        </section>
+        <section id="contact" style="height: 100%;">
+          
+
+        </section>
+
+
         <footer class="page-footer font-small blue pt-4" style="background-color:#2196f3;">
             <div class="container text-center text-md-left">
               <div class="row">
-                <div class="col-md-6 mt-md-0 mt-3">
+                <div class="col-md-9 mt-md-0 mt-3">
                   <h5 class="text-uppercase" style="color:white">Computer Society of India</h5>
                   <p style="color: white;">Made with ❤️ from Anbarasu
                   <br>
