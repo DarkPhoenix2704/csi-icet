@@ -12,59 +12,59 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
         <script>
           $(document).ready(
-            function(){
-          	  $(window).scroll(function () {
+            function () {
+              $(window).scroll(function () {
                 if ($(this).scrollTop() > 50) {
-				          $('#go-to-top').fadeIn();
-		        	  } else {
-				          $('#go-to-top').fadeOut();
-			          }});
-		            $('#go-to-top').click(function () {
-			            $('body,html').animate({
-				          scrollTop: 0}, 400);
-			            return false;
-          	  });
+                  $('#go-to-top').fadeIn();
+                } else {
+                  $('#go-to-top').fadeOut();
+                }
+              });
+              $('#go-to-top').click(function () {
+                $('body,html').animate({
+                  scrollTop: 0
+                }, 400);
+                return false;
+              });
             }
           );
         </script>
     </head>
-
     <body style="height: 100%;">
         <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
             <a class="navbar-brand" href="#" style="max-width: 7%;">
-                <img src="resources/logo.png" class="img-fluid">
-                <span style="font-size: 2.9vw;"> &nbsp Computer Society Of India - ICET</span>
+            <img src="resources/logo.png" class="img-fluid">
+            <span style="font-size: 2.9vw;"> &nbsp Computer Society Of India - ICET</span>
             </a>
             <button class="navbar-toggler" data-target="#my-nav" data-toggle="collapse" aria-controls="my-nav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon"></span>
             </button>
             <div id="my-nav" class="collapse navbar-collapse">
                 <ul class="navbar-nav ml-auto">
-                        <li class="nav-item">
+                    <li class="nav-item">
                         <a class="nav-link" href="#about">AboutUs</a>
-                        </li>
-                        <li class="nav-item">
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" href="#events">Events</a>
-                        </li>
-                        <li class="nav-item">
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" href="#committe">Committe</a>
-                        </li>
-                        <li class ="nav-item"></li>
-                        <a class="nav-link" href="#contact">ContactUs</a>
-                        </li>
-                        <li class ="nav-item"></li>
-                        <a class="nav-link" href="#login">Login</a>
-                        </li>
+                    </li>
+                    <li class ="nav-item"></li>
+                    <a class="nav-link" href="#contact">ContactUs</a>
+                    </li>
+                    <li class ="nav-item"></li>
+                    <a class="nav-link" href="#login">Login</a>
+                    </li>
                 </ul>
             </div>
         </nav>
-
         <div id="carousel" class="carousel slide" data-ride="carousel">
             <ul class="carousel-indicators">
                 <li data-target="#carousel" data-slide-to="0" class="active"></li>
                 <li data-target="#carousel" data-slide-to="1"></li>
                 <li data-target="#carousel" data-slide-to="2"></li>
-              </ul>
+            </ul>
             <div class="carousel-inner">
                 <div class="carousel-item active" style="background: rgba(0,0,0,0.2);">
                     <img class="d-block w-100" src="resources/slide01.png" alt="Computer Society of India">
@@ -89,216 +89,219 @@
                 </div>
             </div>
         </div>
-
         <section id="about"  >
             <div class="bg-light">
                 <div class="container py-5">
-                  <div class="row h-100 align-items-center py-5">
-                    <div class="col-lg-6">
-                      <h1 class="display-4">Who are we?</h1>
-                      <p class="lead text-muted mb-0">CSI is a non-profit professional society formed dedicated to computing
-                      to exchange views and information, learn and share ideas</p>
-                      <p class="lead text-muted">For More Information <a href="http://www.csi-india.org/" class="text-muted"> 
-                      <u>Click here</u></a>
-                      </p>
+                    <div class="row h-100 align-items-center py-5">
+                        <div class="col-lg-6">
+                            <h1 class="display-4">Who are we?</h1>
+                            <p class="lead text-muted mb-0">CSI is a non-profit professional society formed dedicated to computing
+                                to exchange views and information, learn and share ideas
+                            </p>
+                            <p class="lead text-muted">For More Information <a href="http://www.csi-india.org/" class="text-muted"> 
+                                <u>Click here</u></a>
+                            </p>
+                        </div>
+                        <div class="col-lg-6 d-none d-lg-block"><img src="resources/illust1.png" alt="" class="img-fluid"></div>
                     </div>
-                    <div class="col-lg-6 d-none d-lg-block"><img src="resources/illust1.png" alt="" class="img-fluid"></div>
-                  </div>
                 </div>
-              </div>
+            </div>
         </section>
-
         <section id="events"  >
             <div class="container">
                 <div class="row justify-content-center">
-                  <div class="col-md-8 text-center">
-                    <h3 class="display-4">Upcoming Events</h3>
-                    <h6 class="lead text-muted mb-0">Many Events are conducted by the CSI Members all over the Country</h6>
-                  </div>
+                    <div class="col-md-8 text-center">
+                        <h3 class="display-4">Upcoming Events</h3>
+                        <h6 class="lead text-muted mb-0">Many Events are conducted by the CSI Members of ICET Chapter</h6>
+                    </div>
                 </div>
                 <br><br>
                 <div class="row mt-4">
-                  <div class="col-md-4 on-hover">
-                    <div class="card border-0 mb-4">
-                      <a href="#"><img class="card-img-top" src="resources/event1.png"></a>
-                      <div class="date-pos bg-info-gradiant p-2 d-inline-block text-center rounded text-white position-absolute">Dec<span class="d-block">7</span></div>
-                      <h5 class="font-weight-medium mt-3"><a href="#" class="text-decoration-none link">Webinar on Data Analysis</a></h5>
-                      <a href="#" class="text-decoration-none linking text-themecolor mt-2">Learn More</a>
+                    <div class="col-md-4 on-hover">
+                        <div class="card border-0 mb-4">
+                            <a href="#"><img class="card-img-top" src="resources/event1.png"></a>
+                            <div class="date-pos bg-info-gradiant p-2 d-inline-block text-center rounded text-white position-absolute">Dec<span class="d-block">7</span></div>
+                            <h5 class="font-weight-medium mt-3"><a href="#" class="text-decoration-none link">Webinar on Data Analysis</a></h5>
+                            <a href="#" class="text-decoration-none linking text-themecolor mt-2">Learn More</a>
+                        </div>
                     </div>
+                    <div class="col-md-4 on-hover">
+                        <div class="card border-0 mb-4">
+                            <a href="#"><img class="card-img-top" src="resources/event2.png"></a>
+                            <div class="date-pos bg-info-gradiant p-2 d-inline-block text-center rounded text-white position-absolute">Apr<span class="d-block">14</span></div>
+                            <h5 class="font-weight-medium mt-3"><a href="#" class="text-decoration-none link">Webinar on DataScience </a></h5>
+                            <a href="#" class="text-decoration-none linking text-themecolor mt-2">Learn More</a>
+                        </div>
                     </div>
-                  <div class="col-md-4 on-hover">
-                    <div class="card border-0 mb-4">
-                      <a href="#"><img class="card-img-top" src="resources/event2.png"></a>
-                      <div class="date-pos bg-info-gradiant p-2 d-inline-block text-center rounded text-white position-absolute">Apr<span class="d-block">14</span></div>
-                      <h5 class="font-weight-medium mt-3"><a href="#" class="text-decoration-none link">Webinar on DataScience </a></h5>
-                      <a href="#" class="text-decoration-none linking text-themecolor mt-2">Learn More</a>
+                    <div class="col-md-4 on-hover">
+                        <div class="card border-0 mb-4">
+                            <a href="#"><img class="card-img-top" src="resources/event3.jpg"></a>
+                            <div class="date-pos bg-info-gradiant p-2 d-inline-block text-center rounded text-white position-absolute">May<span class="d-block">5</span></div>
+                            <h5 class="font-weight-medium mt-3"><a href="#" class="text-decoration-none link">Webinar on Machine Learning</a></h5>
+                            <a href="#" class="text-decoration-none linking text-themecolor mt-2">Learn More</a>
+                        </div>
                     </div>
-                  </div>
-                  <div class="col-md-4 on-hover">
-                    <div class="card border-0 mb-4">
-                      <a href="#"><img class="card-img-top" src="resources/event3.jpg"></a>
-                      <div class="date-pos bg-info-gradiant p-2 d-inline-block text-center rounded text-white position-absolute">May<span class="d-block">5</span></div>
-                      <h5 class="font-weight-medium mt-3"><a href="#" class="text-decoration-none link">Webinar on Machine Learning</a></h5>
-                      <a href="#" class="text-decoration-none linking text-themecolor mt-2">Learn More</a>
-                    </div>
-                  </div>
                 </div>
-              </div>
+            </div>
         </section>
-
         <section id="committe"">
             <div class="bg-light py-5">
                 <div class="container py-5">
-                  <div class="row mb-4">
-                    <div class="col-lg-5">
-                      <h2 class="display-4 font-weight-light">CSI-ICET Chapter </h2>
-                      <p class="font-italic text-muted">Office Bearers and Committe Members</p>
+                    <div class="row mb-4">
+                        <div class="col-lg-5">
+                            <h2 class="display-4 font-weight-light">CSI-ICET Chapter </h2>
+                            <p class="font-italic text-muted">Office Bearers and Committe Members</p>
+                        </div>
                     </div>
-                  </div>
-                  <div class="row text-center">
-                    <div class="col-xl-3 col-sm-6 mb-5">
-                      <div class="bg-white rounded shadow-sm py-5 px-4"><img src="resources/icon01.jpg" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
-                        <h5 class="mb-0">Asif Ealias</h5><span class="small text-uppercase text-muted">Chairman</span>
-                        <ul class="social mb-0 list-inline mt-3">
-                          <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-facebook-f"></i></a></li>
-                          <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-twitter"></i></a></li>
-                          <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-instagram"></i></a></li>
-                          <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-linkedin"></i></a></li>
-                        </ul>
-                      </div>
+                    <div class="row text-center">
+                        <div class="col-xl-3 col-sm-6 mb-5">
+                            <div class="bg-white rounded shadow-sm py-5 px-4">
+                                <img src="resources/icon01.jpg" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
+                                <h5 class="mb-0">Asif Ealias</h5>
+                                <span class="small text-uppercase text-muted">Chairman</span>
+                                <ul class="social mb-0 list-inline mt-3">
+                                    <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-facebook-f"></i></a></li>
+                                    <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-twitter"></i></a></li>
+                                    <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-instagram"></i></a></li>
+                                    <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-linkedin"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-sm-6 mb-5">
+                            <div class="bg-white rounded shadow-sm py-5 px-4">
+                                <img src="resources/icon1.png" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
+                                <h5 class="mb-0">Jebs John</h5>
+                                <span class="small text-uppercase text-muted">Vice Chairman</span>
+                                <ul class="social mb-0 list-inline mt-3">
+                                    <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-facebook-f"></i></a></li>
+                                    <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-twitter"></i></a></li>
+                                    <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-instagram"></i></a></li>
+                                    <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-linkedin"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-sm-6 mb-5">
+                            <div class="bg-white rounded shadow-sm py-5 px-4">
+                                <img src="resources/icon2.png" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
+                                <h5 class="mb-0">Muhammed Faizal</h5>
+                                <span class="small text-uppercase text-muted">Treasury</span>
+                                <ul class="social mb-0 list-inline mt-3">
+                                    <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-facebook-f"></i></a></li>
+                                    <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-twitter"></i></a></li>
+                                    <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-instagram"></i></a></li>
+                                    <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-linkedin"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-sm-6 mb-5">
+                            <div class="bg-white rounded shadow-sm py-5 px-4">
+                                <img src="resources/icon3.png" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
+                                <h5 class="mb-0">Arya Gopal</h5>
+                                <span class="small text-uppercase text-muted">Secretary</span>
+                                <ul class="social mb-0 list-inline mt-3">
+                                    <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-facebook-f"></i></a></li>
+                                    <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-twitter"></i></a></li>
+                                    <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-instagram"></i></a></li>
+                                    <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-linkedin"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-xl-3 col-sm-6 mb-5">
-                      <div class="bg-white rounded shadow-sm py-5 px-4"><img src="resources/icon1.png" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
-                        <h5 class="mb-0">Jebs John</h5><span class="small text-uppercase text-muted">Vice Chairman</span>
-                        <ul class="social mb-0 list-inline mt-3">
-                          <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-facebook-f"></i></a></li>
-                          <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-twitter"></i></a></li>
-                          <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-instagram"></i></a></li>
-                          <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-linkedin"></i></a></li>
-                        </ul>
-                      </div>
-                    </div>
-                    <div class="col-xl-3 col-sm-6 mb-5">
-                      <div class="bg-white rounded shadow-sm py-5 px-4"><img src="resources/icon2.png" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
-                        <h5 class="mb-0">Muhammed Faizal</h5><span class="small text-uppercase text-muted">Treasury</span>
-                        <ul class="social mb-0 list-inline mt-3">
-                          <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-facebook-f"></i></a></li>
-                          <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-twitter"></i></a></li>
-                          <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-instagram"></i></a></li>
-                          <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-linkedin"></i></a></li>
-                        </ul>
-                      </div>
-                    </div>
-                    <div class="col-xl-3 col-sm-6 mb-5">
-                      <div class="bg-white rounded shadow-sm py-5 px-4"><img src="resources/icon3.png" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
-                        <h5 class="mb-0">Arya Gopal</h5><span class="small text-uppercase text-muted">Secretary</span>
-                        <ul class="social mb-0 list-inline mt-3">
-                          <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-facebook-f"></i></a></li>
-                          <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-twitter"></i></a></li>
-                          <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-instagram"></i></a></li>
-                          <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-linkedin"></i></a></li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
                 </div>
-              </div>
+            </div>
         </section>
-
         <section id="contact"">
             <div class="container py-5">
-              <div class="row h-100 align-items-center py-5">
-                <div class="col-lg-6 d-none d-lg-block"><img src="resources/illust3.png" alt="" class="img-fluid"></div>
-                <div class="col-lg-6">
-                  <h1 class="display-4">Contact Us</h1>
-                  <br>
-                    <form method="get" action="">
-                      <div class="form-group">
-                        <label for="name">Name</label>
-                        <input id="name" class="form-control" type="text" name="" placeholder="Enter your Name">
-                      </div>
-                      <div class="form-group">
-                        <label for="emailid">Email ID</label>
-                        <input id="emailid" class="form-control" type="email" name="" placeholder="Enter your Email ID">
-                      </div>
-                      <button class="btn btn-primary">Submit</button>
-                    </form>
-                  <p class="lead text-muted mb-0">
-                  </p>
+                <div class="row h-100 align-items-center py-5">
+                    <div class="col-lg-6 d-none d-lg-block"><img src="resources/illust3.png" alt="" class="img-fluid"></div>
+                    <div class="col-lg-6">
+                        <h1 class="display-4">Contact Us</h1>
+                        <br>
+                        <form method="get" action="">
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input id="name" class="form-control" type="text" name="" placeholder="Enter your Name">
+                            </div>
+                            <div class="form-group">
+                                <label for="emailid">Email ID</label>
+                                <input id="emailid" class="form-control" type="email" name="" placeholder="Enter your Email ID">
+                            </div>
+                            <button class="btn btn-primary">Submit</button>
+                        </form>
+                        <p class="lead text-muted mb-0">
+                        </p>
+                    </div>
                 </div>
-              </div>
             </div>
         </section>
-
         <footer class="page-footer font-small blue pt-4" style="background-color:#2196f3;">
             <div class="container text-center text-md-left">
-              <div class="row">
-                <div class="col-md-9 mt-md-0 mt-3">
-                  <h5 class="text-uppercase" style="color:white">Computer Society of India ICET Chapter</h5>
-                  <p style="color: white;">
-                    <span style="font-size: 16px; color: white;">
-                      <i class="fas fa-map-marker-alt"></i>
-                      &nbsp;Ilahia College Of Enginnering and Technology
-                      <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Muvattapuzha
-                      <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Kerala 686673
-                  </span><br>
-                  <span style="font-size: 16px; color: white;">
-                    <i class="fas fa-phone-alt"></i>
-                    4852549145
-                    <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;8078303883
-                    <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;8078305885
-                </span><br>
-                <span style="font-size: 16px; color: white;">
-                  <i class="fas fa-envelope"></i>
-                  ilahia@icet.ac.in   
-              </span>
-                  </p>
-                </div>
-                <hr class="clearfix w-100 d-md-none pb-3">
-                <div class="col-md-3 mb-md-0 mb-3">
-                  <h5 class="text-uppercase" style="color: white;">Connect Us</h5>
-                  <ul class="list-unstyled">
-                    <li>
-                        <a href="#" style="text-decoration: none;">
+                <div class="row">
+                    <div class="col-md-9 mt-md-0 mt-3">
+                        <h5 class="text-uppercase" style="color:white">Computer Society of India ICET Chapter</h5>
+                        <p style="color: white;">
                             <span style="font-size: 16px; color: white;">
+                            <i class="fas fa-map-marker-alt"></i>
+                            &nbsp;Ilahia College Of Enginnering and Technology
+                            <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Muvattapuzha
+                            <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Kerala 686673
+                            </span><br>
+                            <span style="font-size: 16px; color: white;">
+                            <i class="fas fa-phone-alt"></i>
+                            4852549145
+                            <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;8078303883
+                            <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;8078305885
+                            </span><br>
+                            <span style="font-size: 16px; color: white;">
+                            <i class="fas fa-envelope"></i>
+                            ilahia@icet.ac.in   
+                            </span>
+                        </p>
+                    </div>
+                    <hr class="clearfix w-100 d-md-none pb-3">
+                    <div class="col-md-3 mb-md-0 mb-3">
+                        <h5 class="text-uppercase" style="color: white;">Connect Us</h5>
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="#" style="text-decoration: none;">
+                                <span style="font-size: 16px; color: white;">
                                 <i class="fab fa-facebook-f"></i>
                                 &nbsp; Facebook
-                            </span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" style="text-decoration: none;">
-                        <span style="font-size: 16px; color: white;">
-                            <i class="fab fa-twitter"></i>
-                             &nbsp; Twitter
-                        </span>
-                    </a>
-                    </li>
-                    <li>
-                        <a href="#" style="text-decoration: none;">
-                        <span style="font-size: 16px; color: white;">
-                            <i class="fab fa-instagram"></i>
-                             &nbsp; Instagram
-                        </span>
-                    </li>
-                    <li>
-                        <a href="#" style="text-decoration: none;">
-                        <span style="font-size: 16px; color: white;">
+                                </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" style="text-decoration: none;">
+                                <span style="font-size: 16px; color: white;">
+                                <i class="fab fa-twitter"></i>
+                                &nbsp; Twitter
+                                </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" style="text-decoration: none;">
+                                    <span style="font-size: 16px; color: white;">
+                                    <i class="fab fa-instagram"></i>
+                                    &nbsp; Instagram
+                                    </span>
+                            </li>
+                            <li>
+                            <a href="#" style="text-decoration: none;">
+                            <span style="font-size: 16px; color: white;">
                             <i class="fab fa-whatsapp"></i>
-                             &nbsp; WhatsApp
-                        </span>
-                    </li>
-                  </ul>
+                            &nbsp; WhatsApp
+                            </span>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-              </div>
             </div>
             <div class="footer-copyright text-center" style="color: white;">
-                © 2020 Copyright: Ilahia College Of Enginnering & Technology
+            © 2020 Copyright: Ilahia College Of Enginnering & Technology
             </div>
-          </footer>
-
-          <a id="go-to-top" href="#" class="btn btn-light btn-lg" style="position:fixed;bottom:25px;right:25px;display:none;" role="button">
-            <i class="fas fa-chevron-up"></i>
-          </a>
+        </footer>
+        <a id="go-to-top" href="#" class="btn btn-light btn-lg" style="position:fixed;bottom:25px;right:25px;display:none;" role="button">
+        <i class="fas fa-chevron-up"></i>
+        </a>
     </body>
 </html>
